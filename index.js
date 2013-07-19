@@ -10,11 +10,13 @@ _____     ______  ____  |__||__|  ____    ____    ____
 
 var asciicon = module.exports = {
 	
-	tableflip: '(╯°□°）╯︵ ┻━┻)'
+	tableflip: '(╯°□°）╯︵ ┻━┻)',
+	
+	tablefall: '┬─┬ ︵ /(.□. \）',
 	
 	yuno: '(ノಠ益ಠ)ノ彡',
 	
-	flippedtable: '┻━┻',
-	
-	'yunotableflip':yuno + flippedtable
+	flippedtable: '┻━┻'
 }
+
+asciicon.yunotableflip = asciicon.yuno + asciicon.flippedtable
